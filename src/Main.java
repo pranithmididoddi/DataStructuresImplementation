@@ -13,5 +13,12 @@ public class Main {
         stack.push(5);
 
         stack.printstack();
+
+        ListNode list=new ListNode(10);
+        list.addTail(12);
+        list.addTail(13);
+        list.addTail(14);
+
+        list.printall();
     }
 }
